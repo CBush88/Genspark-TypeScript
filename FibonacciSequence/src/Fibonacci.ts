@@ -1,4 +1,4 @@
-let fib: Function = (n: number, sequence: Array<number> = []) => {
+function fib(n: number, sequence: number[] = []) {
     if(n === 0){
         return 0;
     }else if(n < 3){

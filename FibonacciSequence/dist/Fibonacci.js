@@ -1,5 +1,5 @@
 "use strict";
-let fib = (n, sequence = []) => {
+function fib(n, sequence = []) {
     if (n === 0) {
         return 0;
     }
@@ -14,7 +14,7 @@ let fib = (n, sequence = []) => {
         sequence[n] = result;
         return result;
     }
-};
+}
 let n = 10;
 console.log(fib(n));
 //# sourceMappingURL=Fibonacci.js.map

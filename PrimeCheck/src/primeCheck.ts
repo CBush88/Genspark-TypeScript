@@ -1,4 +1,4 @@
-function primeCheck(n: number){
+function primeCheck(n: number) : boolean {
     if(n <= 1){
         return false;
     }else if(n === 2){

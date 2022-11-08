@@ -1,4 +1,4 @@
-function palindromeString(s: String){
+function palindromeString(s: String) : boolean {
     let lastIndex: number = s.length - 1;
     for(let i: number = 0; i < s.length/2; i++){
         if(s.charAt(i) !== s.charAt(lastIndex - i)){
@@ -8,7 +8,7 @@ function palindromeString(s: String){
     return true;
 }
 
-function palindromeNumber(n: number){
+function palindromeNumber(n: number) : boolean {
     let temp: number = n;
     let reverse: number = 0;
     while(temp !== 0){
